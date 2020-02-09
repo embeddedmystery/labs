@@ -29,3 +29,7 @@
   - Build, `insmod` and check `dmesg` output
   - Read/write to device file and check `dmesg` output
   - `rmmod` and check `dmesg` output
+  - Reference code: [click here](https://github.com/embeddedmystery/labs/tree/a203b4bf94cc5b6903f7be57e0cc2ad9302da45e/char_device_driver)
+- **Print device major and minor number in open()/release() functions**
+  - Find how to get the device number from `inode` object
+
