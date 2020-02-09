@@ -41,3 +41,6 @@
 - **Any issue?**
   - Why does `echo` never return?
   - Fix it (Hint: return `count` from write())
+  - Reference code: [click here](https://github.com/embeddedmystery/labs/tree/0b581235eb5c83f8e8e726ef7c12cfb6e42202d3/char_device_driver)
+- **Print device major and minor in read()/write functions**
+  - Find how to get the device number from `file` object
