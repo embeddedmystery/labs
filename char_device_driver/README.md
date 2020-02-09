@@ -32,4 +32,9 @@
   - Reference code: [click here](https://github.com/embeddedmystery/labs/tree/a203b4bf94cc5b6903f7be57e0cc2ad9302da45e/char_device_driver)
 - **Print device major and minor number in open()/release() functions**
   - Find how to get the device number from `inode` object
+  - Reference code: [click here](https://github.com/embeddedmystery/labs/tree/5c1cd32e4069ed677fac1f7dabb74db41f0c744d/char_device_driver)
+- **Add read() and write() functions**
+  - Write empty read() and write() functions and update `file_operations` object
+  - Build, `insmod` and check `dmesg` output
+  - Read/write to device file and check `dmesg` output
 
