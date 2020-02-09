@@ -37,4 +37,7 @@
   - Write empty read() and write() functions and update `file_operations` object
   - Build, `insmod` and check `dmesg` output
   - Read/write to device file and check `dmesg` output
-
+  - Reference code: [click here](https://github.com/embeddedmystery/labs/tree/3ad73de6f36e9eae709520f792d6adebcb391e9b/char_device_driver)
+- **Any issue?**
+  - Why does `echo` never return?
+  - Fix it (Hint: return `count` from write())
