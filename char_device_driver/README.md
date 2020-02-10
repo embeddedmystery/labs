@@ -58,3 +58,7 @@
 - **Any issue?**
   - Why does `cat` print nothing?
   - Fix it (Hint: return data length from read())
+  - Reference code: [click here](https://github.com/embeddedmystery/labs/tree/54ed2288b52bc06f55539619c609ab538072b13d/char_device_driver)
+- **Any issue?**
+  - Why does `cat` get stuck in an infinite loop?
+  - Fix it (Hint: return `0` once data is read)
