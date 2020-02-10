@@ -54,3 +54,7 @@
   - Use `copy_to_user()` function to write data to user buffer
   - Copy previously stored data to user buffer
   - Build and run
+  - Reference code: [click here](https://github.com/embeddedmystery/labs/tree/b50bb8623fb9691ba5e35bd87bf6609cd3706183/char_device_driver)
+- **Any issue?**
+  - Why does `cat` print nothing?
+  - Fix it (Hint: return data length from read())
