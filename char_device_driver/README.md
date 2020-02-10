@@ -44,3 +44,8 @@
   - Reference code: [click here](https://github.com/embeddedmystery/labs/tree/0b581235eb5c83f8e8e726ef7c12cfb6e42202d3/char_device_driver)
 - **Print device major and minor in read()/write functions**
   - Find how to get the device number from `file` object
+  - Reference code: [click here](https://github.com/embeddedmystery/labs/tree/a0f4bbe5232597d65e10f190b816968298dbab99/char_device_driver)
+- **Read data from user**
+  - Use `copy_from_user()` function to read user buffer (signature? Hint: *linux/uaccess.h*)
+  - Store this data and data length in some global variable and print it
+  - Build and run
