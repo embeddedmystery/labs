@@ -71,3 +71,9 @@
 - **Any issue?**
   - What will happen when the buffer is full?
   - Fix it (Hint: convert it to a circular buffer)
+  - Reference code: [click here](https://github.com/embeddedmystery/labs/tree/fc9b1540c52d916359396e9f8cdd2c286beab672/char_device_driver)
+- **Future enhancements**
+  - Create multiple device files with same major number but different minor numbers and read/write to those files
+  - Any issue? Fix it (Hint: create a buffer per minor or create an array of buffers of size max minor devices to support)
+  - What if the major number is already in use? Assign major number dynamically?
+  - Create device file inside code instead of using `mknod` command
