@@ -67,3 +67,7 @@
   - Modify data buffer to store 10 lines
   - Return only one line at a time while reading from the device and return `0` once all lines are read
   - Return lines in reverse chronological order i.e. latest line first
+  - Reference code: [click here](https://github.com/embeddedmystery/labs/tree/8639b66f2ce0556410adc2c6300ecfd4eb49b4ef/char_device_driver)
+- **Any issue?**
+  - What will happen when the buffer is full?
+  - Fix it (Hint: convert it to a circular buffer)
