@@ -62,3 +62,8 @@
 - **Any issue?**
   - Why does `cat` get stuck in an infinite loop?
   - Fix it (Hint: return `0` once data is read)
+  - Reference code: [click here](https://github.com/embeddedmystery/labs/tree/9707a2e76c48967b9f45dc500d9f395f1543963d/char_device_driver)
+- **Convert code to store 10 lines from user**
+  - Modify data buffer to store 10 lines
+  - Return only one line at a time while reading from the device and return `0` once all lines are read
+  - Return lines in reverse chronological order i.e. latest line first
